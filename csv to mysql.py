@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 import pymysql
 
-
+#实际使用替换成自己的数据信息
 pymysql.install_as_MySQLdb()
 
 df = pd.read_csv('xsb.csv')
